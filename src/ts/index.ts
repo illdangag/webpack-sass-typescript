@@ -18,12 +18,12 @@ store.subscribe(render2);
 const incrementElement = document.getElementById('increment');
 if (incrementElement) {
   incrementElement.addEventListener('click', function () {
-    store.dispatch({ type: actionType.INCREMENT });
+    store.dispatch({ type: actionType.INCREMENT, });
   });
 }
 const decrementElement = document.getElementById('decrement');
 if (decrementElement) {
   decrementElement.addEventListener('click', function () {
-    store.dispatch({ type: actionType.DECREMENT });
+    store.dispatch({ type: actionType.DECREMENT, });
   });
 }
